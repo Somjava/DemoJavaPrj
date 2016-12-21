@@ -1,0 +1,111 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#4d1401; color:#f2c4b7; font:11px/14px Arial, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:11px/14px Arial, sans-serif; color:#9f7332; text-decoration:none;}
+p a:hover{ color:#fff; text-decoration:none;}
+
+p a.a2{font:11px/14px Arial, sans-serif; color:#f2c4b7; text-decoration:underline;}
+p a.a2:hover{ color:#f2c4b7; text-decoration:none;}
+
+p span.headline{font:12px/14px Arial, sans-serif; color:#be6f44; font-weight:bold}
+
+ul.endlink li{font:11px/14px Tahoma, sans-serif; background:url(../images/arrow1.gif) 0 7px no-repeat; padding-left:10px}
+ul.endlink li a{color:#be6f44; text-decoration:none; font-weight:bold}
+ul.endlink li a:hover{color:#fff; text-decoration:none;}
+
+/* HEADER */
+
+#header{width:775px; height:342px; margin:0 auto; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+
+#header ul.menu{position:absolute; top:14px; left:39px; width:710px}
+#header ul.menu li{float:left; height:24px; margin-right:28px}
+#header ul.menu li a{height:24px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:24px;}
+
+#header ul.menu li.home a{width:95px; background:aqua; }
+#header ul.menu li.home a:hover{width:95px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.about a{width:82px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#header ul.menu li.about a:hover{width:82px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.services a{width:76px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#header ul.menu li.services a:hover{width:76px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.fleet a{width:87px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#header ul.menu li.fleet a:hover{width:87px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.contact {margin-right:0}
+#header ul.menu li.contact a{width:96px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#header ul.menu li.contact a:hover{width:96px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.line {width:5px; height:24px; background:url(../images/spacer_menu.gif) 0 10px no-repeat}
+
+#logo{position:absolute; top:99px; left:478px}
+
+#header ul.topics{position:absolute; top:190px; left:528px; width:205px}
+#header ul.topics li{height:41px; display:block; text-indent:-20000px;}
+#header ul.topics li.t1{background:url(../images/topic1.gif) 0 0 no-repeat;}
+#header ul.topics li.t2{background:url(../images/topic2.gif) 0 0 no-repeat;}
+#header ul.topics li.t3{background:url(../images/topic3.gif) 0 0 no-repeat;}
+
+
+/* CONTENT */
+
+#content{width:775px; margin:0 auto; position:relative; background:url(../images/b_content.jpg) 0 0 no-repeat; clear:both}
+
+#leftPan{width:164px; margin:29px 53px 0 74px; float:left; display:inline}
+#rightPan{width:437px; float:left; margin-top:9px }
+
+#news{margin-bottom:30px; width:161px;}
+#news h2{height:18px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:19px}
+#news p{width: 155px; margin-left:6px; padding-bottom:10px; margin-bottom:10px; border-bottom:#b25957 1px dotted}
+#news p span.date{display:block; padding-left:22px; background:url(../images/icon_news.gif) 0 2px no-repeat; font:12px/14px Arial, sans-serif; color:#f5ad69; font-weight:bold; margin-bottom:10px}
+#news ul.endlink{margin-left:85px}
+
+#testimonials{width:164px;}
+#testimonials h2{height:27px; position:relative; background:url(../images/h_testimonials.gif) 0 0 no-repeat; margin-bottom:12px}
+#testimonials img{margin-bottom:12px; clear:both}
+#testimonials p{width:155px; margin-left:6px; margin-bottom:10px}
+#testimonials ul.endlink{margin-left:85px}
+
+#welcome h2{height:68px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:16px}
+
+#welcome{margin-bottom:25px}
+#welcome img{margin:0 19px 0 9px; float:left; display:inline}
+#welcome p{width:245px; float:left}
+#welcome .clear{height:20px}
+#welcome ul {margin-left:15px;}
+#welcome ul li{font:10px/14px Tahoma, sans-serif; background:url(../images/arrow1.gif) 4px 6px no-repeat; padding-left:18px; height:17px; padding-top:1px; border-bottom:#ad6d6f 1px dotted}
+#welcome ul li a{color:#9f7332; text-decoration:none;}
+#welcome ul li a:hover{color:#fff; text-decoration:none;}
+
+#featured{width:220px; float:left; margin:0 17px 0 4px; display:inline}
+#featured h2{height:27px; position:relative; background:url(../images/h_featured.gif) 0 0 no-repeat; margin-bottom:13px}
+#featured p {width: 215px; margin:0 0 10px 5px; padding-bottom:10px; border-bottom:#ad6d6f 1px dotted}
+#featured p img{float:left; margin-right:10px}
+#featured ul.endlink{margin-left:160px}
+
+#resources{width:195px; float:left;}
+#resources h2{height:27px; position:relative; background:url(../images/h_resources.gif) 0 0 no-repeat; margin-bottom:11px}
+#resources p.star{width:166px; margin-left:4px; padding-left:19px; background:url(../images/star.gif) 0 0 no-repeat; margin-bottom:17px}
+
+/* FOOTER */
+
+#footer{height:64px; background:url(../images/b_footer.gif) 0 0 repeat-x; clear:both; width:775px; margin:0 auto; margin-top:10px; }
+#footer p{padding: 15px 0 0 0; font:11px/16px Arial, sans-serif; font-weight:normal; text-align:center; color:#ffe3cc;}
+#footer p a{font:11px/16px Arial, sans-serif; font-weight:normal; color:#ffe3cc; text-decoration:none; padding: 0 5px }
+#footer p a:hover{text-decoration:none; background:#ffe3cc; color:#000}
+.sponsor {
+	margin: auto;
+	width: 728px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.sponsor img {
+	margin-top: 5px;
+}
